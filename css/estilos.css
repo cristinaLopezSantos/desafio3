@@ -1,0 +1,39 @@
+/*MEDIA QUERIES*/
+
+/*xs*/
+@media only screen and (max-width: 480px) {
+    .contenido {
+        width: 90%;
+        margin: auto;
+    }
+}
+/*MD*/
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .contenido {
+        width: 65%;
+        margin: auto;
+    }
+}
+/*LG*/
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .contenido {
+        width: 95%;
+        margin: auto;
+    }
+
+}
+/*XL*/
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .contenido {
+        width: 85%;
+        margin: auto;
+    }
+}
+/*XXL*/
+@media only screen and (min-width: 1201px) {
+    .contenido {
+        width: 65%;
+        margin: auto;
+    }
+
+}
